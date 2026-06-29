@@ -8,5 +8,5 @@ venv
 book/book
 /examples
 external
-prompts
+sites
 .html-extractor-cloudflare-cookies.json
