@@ -1,0 +1,4 @@
+status = response.status()
+data = response.json()
+_document = response.html()
+body = response.text()

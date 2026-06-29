@@ -1,0 +1,3 @@
+price = raw_price
+    .nullcheck("price is required")
+    .assert(x => x > 0, "price must be positive")

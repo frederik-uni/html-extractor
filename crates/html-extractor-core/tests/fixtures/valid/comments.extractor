@@ -1,0 +1,6 @@
+// A line comment before an assignment.
+name = "// comment markers inside strings are text"
+
+/* A block comment
+   preserving source lines. */
+description = "/* still text */"

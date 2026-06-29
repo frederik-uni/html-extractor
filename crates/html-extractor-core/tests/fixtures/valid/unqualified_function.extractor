@@ -1,0 +1,1 @@
+price = parse_price(raw_price)

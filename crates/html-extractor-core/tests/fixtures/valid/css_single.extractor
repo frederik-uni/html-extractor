@@ -1,0 +1,3 @@
+first = html.css(".product")
+name = first.css(".name").text()
+href = first.css("a").attr("href")

@@ -1,0 +1,7 @@
+nothing = null
+enabled = true
+disabled = false
+integer = 42
+decimal = 12.50
+text = "extractor"
+items = [null, true, 42, "value"]

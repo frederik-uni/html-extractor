@@ -1,0 +1,7 @@
+currency = "EUR"
+
+products = html.css@(".product").map {
+    name = it.css(".name")!.text()
+    _text = it.css(".price").text()
+    price = parse_price(_text, currency)
+}

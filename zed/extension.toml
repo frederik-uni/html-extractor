@@ -1,0 +1,11 @@
+id = "html_extractor"
+name = "HTML Extractor"
+version = "0.1.0"
+schema_version = 1
+authors = ["Frederik"]
+description = "Syntax support for HTML Extractor programs"
+repository = "file:///Users/frederik/code/rust/html-extractor"
+
+[grammars.html_extractor]
+repository = "file:///Users/frederik/code/rust/html-extractor/zed/grammars/html_extractor"
+rev = "b6ca81cb3d093af05cfe6984d0fbf1e674128d24"

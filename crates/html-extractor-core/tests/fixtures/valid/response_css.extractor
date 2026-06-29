@@ -1,0 +1,1 @@
+title = response.css("h1")!.text()

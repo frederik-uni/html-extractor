@@ -1,0 +1,8 @@
+{
+  "article_count": 3,
+  "articles": [
+    { "key": "post-7", "title": "First post", "body": "Alpha text" },
+    { "key": "post-8", "title": "Second post", "body": "Beta text" },
+    { "key": "post-9", "title": "Third post", "body": "Gamma text" }
+  ]
+}

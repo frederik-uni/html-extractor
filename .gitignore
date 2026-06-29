@@ -1,0 +1,12 @@
+/target
+node_modules/
+__pycache__
+.DS_Store
+venv
+.codebase-memory
+.cache
+book/book
+/examples
+external
+prompts
+.html-extractor-cloudflare-cookies.json

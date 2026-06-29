@@ -1,0 +1,2 @@
+_response = fetch("https://example.com/products")
+status = _response.status()

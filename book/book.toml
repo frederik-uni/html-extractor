@@ -1,0 +1,7 @@
+[book]
+title = "HTML Extractor"
+authors = ["HTML Extractor contributors"]
+description = "Language, runtime, CLI, API, and source reference for the HTML Extractor project."
+language = "en"
+multilingual = false
+src = "src"

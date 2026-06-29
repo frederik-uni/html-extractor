@@ -1,0 +1,2 @@
+products = html.css@(".product")
+names = products.css(".name").text()

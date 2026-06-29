@@ -1,0 +1,2 @@
+positive = numbers.filter(x => x > 0)
+in_stock = products.filter(product => product.stock() > 0)

@@ -1,0 +1,8 @@
+_nodes = html("<a href='https://example.com'>A</a>").css@("a")
+links = map(_nodes, node => href(node))
+external = _nodes.filter(node => contains(href(node), "https://"))
+label = "found" if external != [] else "missing"
+status = switch(external != []) {
+    true => "ok",
+    value => f"unexpected {value}",
+}

@@ -1,0 +1,36 @@
+[package]
+name = "html-extractor"
+version.workspace = true
+edition.workspace = true
+description = "Compile HTML extractor scripts at runtime or during Rust compilation."
+license.workspace = true
+documentation = "https://docs.rs/html-extractor"
+readme = "README.md"
+keywords.workspace = true
+categories.workspace = true
+
+[workspace]
+members = [
+    ".",
+    "crates/html-extractor-cli",
+    "crates/html-extractor-core",
+    "crates/html-extractor-macros",
+    "crates/html-extractor-runtime",
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+keywords = ["html", "scraping", "extractor", "parser"]
+categories = ["parser-implementations", "web-programming"]
+
+[workspace.dependencies]
+html-extractor-core = { version = "0.1.0", path = "crates/html-extractor-core" }
+html-extractor-macros = { version = "0.1.0", path = "crates/html-extractor-macros" }
+html-extractor-runtime = { version = "0.1.0", path = "crates/html-extractor-runtime" }
+
+[dependencies]
+html-extractor-core.workspace = true
+html-extractor-macros.workspace = true

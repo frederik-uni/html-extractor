@@ -1,0 +1,19 @@
+{
+  "page_title": "Summer catalogue",
+  "products": [
+    {
+      "id": "sku-101",
+      "name": "Canvas Bag",
+      "price": "24.95",
+      "link": "/products/canvas-bag",
+      "tags": ["travel", "canvas"]
+    },
+    {
+      "id": "sku-102",
+      "name": "Steel Bottle",
+      "price": "18.50",
+      "link": "/products/steel-bottle",
+      "tags": ["travel"]
+    }
+  ]
+}

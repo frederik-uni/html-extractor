@@ -1,0 +1,2 @@
+_html = fetch("https://example.com").html()
+title = _html.css("h1")!.text()

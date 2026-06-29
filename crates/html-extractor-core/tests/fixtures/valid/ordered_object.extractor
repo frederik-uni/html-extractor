@@ -1,0 +1,5 @@
+product = {
+    name: "Product A",
+    price: 12.50,
+    available: true
+}

@@ -1,0 +1,2 @@
+title = html.css("h1")!.text()
+products = html.css@(".product")!

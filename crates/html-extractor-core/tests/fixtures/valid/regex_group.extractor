@@ -1,0 +1,2 @@
+id = text.regex("id=(\\d+)", 1)
+slug = text.regex("slug=(?<slug>[a-z-]+)", "slug")

@@ -1,0 +1,1 @@
+images = html.css@(".gallery").css@("img").flatten()

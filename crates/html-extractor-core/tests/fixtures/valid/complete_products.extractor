@@ -1,0 +1,18 @@
+/*
+ * Complete example from the approved language design.
+ */
+_response = fetch("https://example.com/products")
+_response.assert(r => r.status() == 200, "product request failed")
+
+products = _response.css@(".product")!.map {
+    name = it.css(".name")!.text()
+    link = it.css("a")!.attr("href").nullcheck("product link is missing")
+
+    _raw_price = it.css(".price")!.text()
+    price = parse_price(_raw_price)
+        .nullcheck("price could not be parsed")
+        .assert(x => x > 0, "price must be positive")
+
+    stock = it.css(".stock").text()
+        .warn(x => x != "", "stock text is empty")
+}

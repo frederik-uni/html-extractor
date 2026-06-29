@@ -1,0 +1,17 @@
+[package]
+name = "html-extractor-macros"
+version.workspace = true
+edition.workspace = true
+description = "Proc macros for embedding validated HTML Extractor programs."
+license.workspace = true
+documentation = "https://docs.rs/html-extractor-macros"
+keywords.workspace = true
+categories.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+html-extractor-core.workspace = true
+quote = "1.0"
+syn = "2.0"

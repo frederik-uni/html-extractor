@@ -1,0 +1,24 @@
+[package]
+name = "html-extractor-runtime"
+version.workspace = true
+edition.workspace = true
+description = "Execution engine, runtime values, HTTP, HTML, and Lua support for HTML Extractor."
+license.workspace = true
+documentation = "https://docs.rs/html-extractor-runtime"
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+html-extractor-core.workspace = true
+indexmap = "2"
+serde_json = { version = "1", features = ["preserve_order"] }
+async-recursion = "1"
+futures = "0.3"
+regex = "1"
+scraper = "0.24"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+mlua = { version = "0.11", features = ["lua54", "vendored"] }
+serde_urlencoded = "0.7"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }

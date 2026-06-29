@@ -1,0 +1,1 @@
+price = europarser.parse_price(raw_price)
